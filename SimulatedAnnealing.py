@@ -52,7 +52,7 @@ class SA:
         if new_score <= self.score:
             return True
         else:
-            p = math.exp((self.score - new_score) / self.T)
+            p = math.exp((-self.score + new_score) / self.T)
             if random() < p:
                 return True
             else:
