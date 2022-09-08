@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 
 
 class SA:
-    def __init__(self, initial_solution, T=100, T_min=0.5, alpha=0.90, max_time=600, iters=1, iters_2=5, iters_3=5):
+    def __init__(self, initial_solution, T=100, T_min=0.05, alpha=0.99, max_time=600, iters=10, iters_2=5, iters_3=5):
         self.T = T  # initial temperature
         self.T_min = T_min  # minimum temperature
         self.alpha = alpha  # the coefficient of temperature decreasing
@@ -52,8 +52,9 @@ class SA:
         if new_score <= self.score:
             return True
         else:
-            p = math.exp((-self.score + new_score) / self.T)
-            if random() < p:
+            p = math.exp((new_score - self.score) / self.T)
+            # print(p)
+            if random() > p:
                 return True
             else:
                 return False
@@ -74,12 +75,15 @@ class SA:
             solutions = [self.curr_solution]
             scores = [self.score]
             for i in range(self.iter):  # iter is the number of iterations applied in each temperature
-                self.move()
+                movement1 = 0.01
+                movement2 = 0.1
+                movement3 = 0.1
+                self.move(movement1)
                 for j in range(self.iter_2):
-                    if self.move_2() == -1:
+                    if self.move_2(movement2) == -1:
                         continue
                     for p in range(self.iter_3):
-                        self.move_3()
+                        self.move_3(movement3)
                         new_score = self.evaluation()
                         if self.check(new_score):  # check whether accept the new solution or not
                             solution_copy = copy.deepcopy(self.curr_solution)
@@ -114,7 +118,7 @@ class SA:
             count += 1
 
             print("{:<15}{:<24}{:<24}{:<24}{:<24}".format(count, self.T, score_min, min(self.history['scores']),
-                                                          len(solutions)))
+                                                          (len(solutions) - 1)/ self.iter / self.iter_2 / self.iter_3))
 
             if count % 300 == 0:
                 self.evaluation(True)
@@ -128,7 +132,7 @@ class SA:
                 f.close()
 
             # no accepted solutions in past 5 iterations
-            if len(solutions) == 0:
+            if len(solutions) < 5:
                 flag += 1
             else:
                 flag = 0
