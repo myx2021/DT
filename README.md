@@ -5,8 +5,10 @@ This project simulates the R CMa system based on its main parameters,
 containing masses, radii, orbital radii, effective temperatures and luminosities of the two stars. 
 The main parameters were optimised based on the predicted light flux and RV of the simulated system. 
 
-###########Dependency
+###########environment
 python 3.10
+
+###########Dependent library
 math
 random
 numpy
