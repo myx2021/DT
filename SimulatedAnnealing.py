@@ -72,7 +72,8 @@ class SA:
         print("{:<15}{:<24}{:<24}{:<24}{:<24}".format('Iteration', 'Temperature', 'Best Score', 'Global Best Score',
                                                       'Num of Accepted Solution'))
         # print('Iteration\t\tTemperature\t\t\t\tBest Score\t\t\tGlobal Best Score\t\t\tNum of Accepted Solution')
-        flag_c = 0 # convergence
+        flag_c = 0  # convergence
+        max_flag_c = 100
         while self.T > self.T_min and self.time > time.time() - start and count < 30000:
 
             solutions = [self.curr_solution]
@@ -101,7 +102,7 @@ class SA:
                 self.best_score = temp_score
                 flag_c = 0
 
-            if flag_c > 50:
+            if flag_c > max_flag_c:
                 break
 
             bests.append(self.best_score)
@@ -167,9 +168,6 @@ class SA:
                 movement1 = movement1 / 2
                 movement2 = movement2 / 2
                 movement3 = movement3 / 2
-                # print(movement1)
-                # print(movement2)
-                # print(movement3)
 
                 flag_2 = 0
         # best solution
@@ -177,8 +175,8 @@ class SA:
         score_min = min(scores)  # find the smallest score
         index = scores.index(score_min)
         solution = self.history['solutions'][index]
-        # print(solution)
-        if flag_c > 50:
+        print(solution)
+        if flag_c > max_flag_c:
             masses1 = list()
             masses2 = list()
             radii1 = list()
@@ -189,7 +187,7 @@ class SA:
             temperatures2 = list()
             luminosities1 = list()
             luminosities2 = list()
-            for i in range(1, 49):
+            for i in range(1, max_flag_c-1):
                 mass1 = np.array(self.history['solutions'][-i]['star1']['mass'])
                 masses1.append(mass1)
 
@@ -220,18 +218,25 @@ class SA:
                 luminosity2 = np.array(self.history['solutions'][-i]['star2']['luminosity'])
                 luminosities2.append(luminosity2)
 
-            var1 = np.var(np.array(masses1))
-            var2 = np.var(np.array(masses2))
-            var3 = np.var(np.array(radii1))
-            var4 = np.var(np.array(radii2))
-            var5 = np.var(np.array(orb_radii1))
-            var6 = np.var(np.array(orb_radii2))
-            var7 = np.var(np.array(temperatures1))
-            var8 = np.var(np.array(temperatures2))
-            var9 = np.var(np.array(luminosities1))
-            var10 = np.var(np.array(luminosities2))
+            max1 = np.max(np.array(masses1)) - solution['star1']['mass'], solution['star1']['mass'] - np.min(np.array(masses1))
+            max2 = np.max(np.array(masses2)) - solution['star2']['mass'], solution['star2']['mass'] - np.min(np.array(masses2))
+            max3 = np.max(np.array(radii1)) - solution['star1']['radius'], solution['star1']['radius'] - np.min(np.array(radii1))
+            max4 = np.max(np.array(radii2)) - solution['star2']['radius'], solution['star2']['radius'] - np.min(np.array(radii2))
+            max5 = np.max(np.array(orb_radii1)) - solution['star1']['orbital_radius'], solution['star1']['orbital_radius'] - np.min(np.array(orb_radii1))
+            max6 = np.max(np.array(orb_radii2)) - solution['star2']['orbital_radius'], solution['star2']['orbital_radius'] - np.min(np.array(orb_radii2))
+            max7 = np.max(np.array(temperatures1)) - solution['star1']['temperature'], solution['star1']['temperature'] - np.min(np.array(temperatures1))
+            max8 = np.max(np.array(temperatures2)) - solution['star2']['temperature'], solution['star2']['temperature'] - np.min(np.array(temperatures2))
+            max9 = np.max(np.array(luminosities1)) - solution['star1']['luminosity'], solution['star1']['luminosity'] - np.min(np.array(luminosities1))
+            max10 = np.max(np.array(luminosities2)) - solution['star2']['luminosity'], solution['star2']['luminosity']- np.min(np.array(luminosities2))
 
-            print(var1, var2, var3, var4, var5, var6, var7, var8, var9, var10)
+            # (0.0018995985822873873, 0.0039048129299021905)(0.0002517162539118212, 0.0005174276776717668)
+            # (0.04338698495735738, 0.05314646443909699)(0.2748217448053736, 0.22038367903134137)
+            # (0.0016720164881031119, 0.0008103145636880749)(0.012618017712412666, 0.0061151092647664385)
+            # (10.632141308024075, -10.632141308024075)(-0.7971023970940223, 10.165417302824608)
+            # (0.4574050512393768, 0.4.691916878266029)(0.29281410831785104,0.2009242169958244)
+
+            # print(var1, var2, var3, var4, var5, var6, var7, var8, var9, var10)
+            print(max1, max2, max3, max4, max5, max6, max7, max8, max9, max10)
 
         # plot
         plt.figure(figsize=(30, 8))
@@ -317,7 +322,3 @@ class SA:
         ax8.set_ylabel("Mass of the secondary star")
         plt.plot(range(count), [solution_index['star2']['mass'] for solution_index in self.history['solutions']])
         plt.show()
-# Variation
-# 2.264661527208985e-05 3.9765106359232194e-07 0.018142120627606954 0.025748708798517178
-# 4.661094323388324e-06 0.00026545386031437456 49.515041322418305 23.136713549300907 0.9814540347229607
-# 0.02872194352215192
