@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 
 
 class SA:
-    def __init__(self, initial_solution, T=100, T_min=0.05, alpha=0.99, max_time=600, iters=10, iters_2=5, iters_3=5):
+    def __init__(self, initial_solution, T=100, T_min=0.05, alpha=0.99, max_time=12000, iters=1, iters_2=10, iters_3=10):
         self.T = T  # initial temperature
         self.T_min = T_min  # minimum temperature
         self.alpha = alpha  # the coefficient of temperature decreasing
@@ -62,7 +62,9 @@ class SA:
     def annealing(self):
         count = 0
         flag = 0
+        flag_2 = 0
 
+        bests = list()
         start = time.time()
 
         print(
@@ -70,14 +72,16 @@ class SA:
         print("{:<15}{:<24}{:<24}{:<24}{:<24}".format('Iteration', 'Temperature', 'Best Score', 'Global Best Score',
                                                       'Num of Accepted Solution'))
         # print('Iteration\t\tTemperature\t\t\t\tBest Score\t\t\tGlobal Best Score\t\t\tNum of Accepted Solution')
-        while self.T > self.T_min and self.time > time.time() - start and count < 300:
+        flag_c = 0 # convergence
+        while self.T > self.T_min and self.time > time.time() - start and count < 30000:
 
             solutions = [self.curr_solution]
             scores = [self.score]
+            movement1 = 0.01
+            movement2 = 0.1
+            movement3 = 1
+            temp_score = self.best_score
             for i in range(self.iter):  # iter is the number of iterations applied in each temperature
-                movement1 = 0.01
-                movement2 = 0.1
-                movement3 = 0.1
                 self.move(movement1)
                 for j in range(self.iter_2):
                     if self.move_2(movement2) == -1:
@@ -89,6 +93,18 @@ class SA:
                             solution_copy = copy.deepcopy(self.curr_solution)
                             solutions.append(solution_copy)
                             scores.append(new_score)
+                        if new_score < self.best_score:
+                            temp_score = new_score
+            if self.best_score == temp_score:
+                flag_c = flag_c+1
+            else:
+                self.best_score = temp_score
+                flag_c = 0
+
+            if flag_c > 50:
+                break
+
+            bests.append(self.best_score)
 
             score_min = min(scores)  # find the smallest score
             scores = np.array(scores)
@@ -118,7 +134,8 @@ class SA:
             count += 1
 
             print("{:<15}{:<24}{:<24}{:<24}{:<24}".format(count, self.T, score_min, min(self.history['scores']),
-                                                          (len(solutions) - 1)/ self.iter / self.iter_2 / self.iter_3))
+                                                          (len(solutions) - 1) / self.iter / self.iter_2 / self.iter_3))
+            # print(len(solutions))
 
             if count % 300 == 0:
                 self.evaluation(True)
@@ -132,21 +149,89 @@ class SA:
                 f.close()
 
             # no accepted solutions in past 5 iterations
-            if len(solutions) < 5:
+            accept_rate = (len(solutions) - 1) / (self.iter * self.iter_2 * self.iter_3)
+            if accept_rate < 0.01:
                 flag += 1
             else:
                 flag = 0
 
-            if flag > 5:
+            if flag > 10:
                 break
 
+            if accept_rate > 0.5:
+                flag_2 += 1
+            else:
+                flag_2 = 0
+
+            if flag_2 > 10:
+                movement1 = movement1 / 2
+                movement2 = movement2 / 2
+                movement3 = movement3 / 2
+                # print(movement1)
+                # print(movement2)
+                # print(movement3)
+
+                flag_2 = 0
         # best solution
         scores = self.history['scores']
         score_min = min(scores)  # find the smallest score
         index = scores.index(score_min)
         solution = self.history['solutions'][index]
+        # print(solution)
+        if flag_c > 50:
+            masses1 = list()
+            masses2 = list()
+            radii1 = list()
+            radii2 = list()
+            orb_radii1 = list()
+            orb_radii2 = list()
+            temperatures1 = list()
+            temperatures2 = list()
+            luminosities1 = list()
+            luminosities2 = list()
+            for i in range(1, 49):
+                mass1 = np.array(self.history['solutions'][-i]['star1']['mass'])
+                masses1.append(mass1)
 
-        print(solution)
+                mass2 = np.array(self.history['solutions'][-i]['star2']['mass'])
+                masses2.append(mass2)
+
+                radius1 = np.array(self.history['solutions'][-i]['star1']['radius'])
+                radii1.append(radius1)
+
+                radius2 = np.array(self.history['solutions'][-i]['star2']['radius'])
+                radii2.append(radius2)
+
+                orb_radius1 = np.array(self.history['solutions'][-i]['star1']['orbital_radius'])
+                orb_radii1.append(orb_radius1)
+
+                orb_radius2 = np.array(self.history['solutions'][-i]['star2']['orbital_radius'])
+                orb_radii2.append(orb_radius2)
+
+                temperature1 = np.array(self.history['solutions'][-i]['star1']['temperature'])
+                temperatures1.append(temperature1)
+
+                temperature2 = np.array(self.history['solutions'][-i]['star2']['temperature'])
+                temperatures2.append(temperature2)
+
+                luminosity1 = np.array(self.history['solutions'][-i]['star1']['luminosity'])
+                luminosities1.append(luminosity1)
+
+                luminosity2 = np.array(self.history['solutions'][-i]['star2']['luminosity'])
+                luminosities2.append(luminosity2)
+
+            var1 = np.var(np.array(masses1))
+            var2 = np.var(np.array(masses2))
+            var3 = np.var(np.array(radii1))
+            var4 = np.var(np.array(radii2))
+            var5 = np.var(np.array(orb_radii1))
+            var6 = np.var(np.array(orb_radii2))
+            var7 = np.var(np.array(temperatures1))
+            var8 = np.var(np.array(temperatures2))
+            var9 = np.var(np.array(luminosities1))
+            var10 = np.var(np.array(luminosities2))
+
+            print(var1, var2, var3, var4, var5, var6, var7, var8, var9, var10)
 
         # plot
         plt.figure(figsize=(30, 8))
@@ -232,4 +317,7 @@ class SA:
         ax8.set_ylabel("Mass of the secondary star")
         plt.plot(range(count), [solution_index['star2']['mass'] for solution_index in self.history['solutions']])
         plt.show()
-
+# Variation
+# 2.264661527208985e-05 3.9765106359232194e-07 0.018142120627606954 0.025748708798517178
+# 4.661094323388324e-06 0.00026545386031437456 49.515041322418305 23.136713549300907 0.9814540347229607
+# 0.02872194352215192
