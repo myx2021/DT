@@ -157,6 +157,7 @@ def read_RV_data(filename):
 
 
 def main():
+    random.seed(a=None, version=2)
 
     # read photometric data
     period, Z, time, phases_p, photometric_data = read_photometric_data('V.dat')
@@ -207,11 +208,11 @@ def main():
     print("{:<15}{:<15}{:<24}{:<24}{:<24}{:<24}{:<24}\n".format('Star3', r3, "None", "None", "None", "None", "None"))
 
     star1 = {'mass': m1, 'radius': r1, 'temperature': T1, 'luminosity': L1,
-             'orbital_radius': orb_r1, 'orbital_radius_error': orbital_radius_error}
+             'orbital_radius': orb_r1, 'mass_error': None, 'radius_error': None,'temperature_error': None, 'orbital_radius_error': orbital_radius_error}
     star2 = {'mass': m2, 'radius': r2, 'temperature': T2, 'luminosity': L2,
-             'orbital_radius': orb_r2, 'orbital_radius_error': orbital_radius_error}
+             'orbital_radius': orb_r2, 'mass_error': None, 'radius_error': None,'temperature_error': None, 'orbital_radius_error': orbital_radius_error}
     star3 = {'mass': m3, 'radius': r3, 'temperature': T3, 'luminosity': 0.4,
-             'orbital_radius': orb_r3, 'orbital_radius_error': orbital_radius_error}
+             'orbital_radius': orb_r3, 'mass_error': None, 'radius_error': None,'temperature_error': None, 'orbital_radius_error': orbital_radius_error}
 
     init_solution = {'star1': star1, 'star2': star2, 'star3': star3, 'period': period, 'distance': 44 * pc / R_sun,
                      'mass_coefficient_1_2': mass_coefficient, 'orbit_coefficient_1_2': orbit_coefficient}
