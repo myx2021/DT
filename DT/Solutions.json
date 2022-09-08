@@ -1,0 +1,1288 @@
+{
+    "T": [
+        50,
+        49.0,
+        48.019999999999996,
+        47.059599999999996,
+        46.118407999999995,
+        45.19603984,
+        44.292119043199996,
+        43.406276662336,
+        42.53815112908928,
+        41.68738810650749,
+        40.85364034437734,
+        40.036567537489795,
+        39.235836186739995,
+        38.45111946300519,
+        37.68209707374509,
+        36.92845513227019,
+        36.18988602962478,
+        35.46608830903229,
+        34.75676654285164,
+        34.06163121199461,
+        33.38039858775472,
+        32.71279061599962,
+        32.05853480367963,
+        31.417364107606033,
+        30.789016825453913,
+        30.173236488944834,
+        29.56977175916594,
+        28.97837632398262,
+        28.398808797502966,
+        27.830832621552904,
+        27.274215969121844,
+        26.728731649739405,
+        26.194157016744615,
+        25.670273876409723,
+        25.156868398881528,
+        24.6537310309039,
+        24.16065641028582,
+        23.677443282080105,
+        23.2038944164385,
+        22.73981652810973
+    ],
+    "solutions": [
+        {
+            "star1": {
+                "mass": 1.522815792115595,
+                "radius": 1.7968496216608976,
+                "temperature": 7300.140071737559,
+                "luminosity": 8.226935416394362,
+                "orbital_radius": 0.6566782438017239,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2017886779677266,
+                "radius": 1.21790390886468,
+                "temperature": 4350.162639888766,
+                "luminosity": 0.4765822636153974,
+                "orbital_radius": 4.95567942696932,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2017886779677266,
+            "orbit_coefficient_1_2": 4.95567942696932
+        },
+        {
+            "star1": {
+                "mass": 1.5197653558558348,
+                "radius": 1.748337829236784,
+                "temperature": 7300.253248780041,
+                "luminosity": 7.789189399459078,
+                "orbital_radius": 0.6579963124878996,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2013844639431093,
+                "radius": 1.2065440624061816,
+                "temperature": 4350.7855130697535,
+                "luminosity": 0.4680011482318735,
+                "orbital_radius": 4.965626346839238,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2013844639431093,
+            "orbit_coefficient_1_2": 4.965626346839238
+        },
+        {
+            "star1": {
+                "mass": 1.5214160185438255,
+                "radius": 1.6886335158179966,
+                "temperature": 7299.796050287994,
+                "luminosity": 7.264463828482575,
+                "orbital_radius": 0.6572824183599157,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20160319364325086,
+                "radius": 1.198027300536828,
+                "temperature": 4350.9584815592125,
+                "luminosity": 0.4614907877472698,
+                "orbital_radius": 4.960238882770682,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20160319364325086,
+            "orbit_coefficient_1_2": 4.960238882770682
+        },
+        {
+            "star1": {
+                "mass": 1.518492470668958,
+                "radius": 1.6678666012364858,
+                "temperature": 7300.013486508433,
+                "luminosity": 7.0877293280585425,
+                "orbital_radius": 0.6585478817418562,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2012157936282922,
+                "radius": 1.1934683092050458,
+                "temperature": 4351.229073087348,
+                "luminosity": 0.45809908383402853,
+                "orbital_radius": 4.969788812141204,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2012157936282922,
+            "orbit_coefficient_1_2": 4.969788812141204
+        },
+        {
+            "star1": {
+                "mass": 1.5181751831071262,
+                "radius": 1.6697400041311627,
+                "temperature": 7299.531852275729,
+                "luminosity": 7.101786081836845,
+                "orbital_radius": 0.6586855134552924,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20117374977901697,
+                "radius": 1.1831893913807767,
+                "temperature": 4351.353359441815,
+                "luminosity": 0.45029361995740835,
+                "orbital_radius": 4.970827461825753,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20117374977901697,
+            "orbit_coefficient_1_2": 4.970827461825753
+        },
+        {
+            "star1": {
+                "mass": 1.5168907365339397,
+                "radius": 1.6609301349780852,
+                "temperature": 7300.221148745017,
+                "luminosity": 7.029697643549836,
+                "orbital_radius": 0.6592432638127759,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2010035474621869,
+                "radius": 1.2116230596110726,
+                "temperature": 4351.345672798782,
+                "luminosity": 0.4721926810426443,
+                "orbital_radius": 4.9750365733625745,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2010035474621869,
+            "orbit_coefficient_1_2": 4.9750365733625745
+        },
+        {
+            "star1": {
+                "mass": 1.5143803627005776,
+                "radius": 1.6251494195002494,
+                "temperature": 7300.608840410406,
+                "luminosity": 6.73151416517078,
+                "orbital_radius": 0.6603360850616888,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20067089723642642,
+                "radius": 1.2373926658363905,
+                "temperature": 4351.664889761826,
+                "luminosity": 0.49263663099160354,
+                "orbital_radius": 4.983283643874977,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20067089723642642,
+            "orbit_coefficient_1_2": 4.983283643874977
+        },
+        {
+            "star1": {
+                "mass": 1.5157386964137007,
+                "radius": 1.6407536976923425,
+                "temperature": 7300.6920862196885,
+                "luminosity": 6.86171635420529,
+                "orbital_radius": 0.6597443229271909,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20085089035550835,
+                "radius": 1.2188584824747308,
+                "temperature": 4351.239978000153,
+                "luminosity": 0.47780265884638,
+                "orbital_radius": 4.978817859507561,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20085089035550835,
+            "orbit_coefficient_1_2": 4.978817859507561
+        },
+        {
+            "star1": {
+                "mass": 1.5156648405209474,
+                "radius": 1.60067757886489,
+                "temperature": 7300.632130786407,
+                "luminosity": 6.530394763313949,
+                "orbital_radius": 0.6597764711994579,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20084110369382807,
+                "radius": 1.2471604510796714,
+                "temperature": 4351.67574079385,
+                "luminosity": 0.5004499139609794,
+                "orbital_radius": 4.9790604692376546,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20084110369382807,
+            "orbit_coefficient_1_2": 4.9790604692376546
+        },
+        {
+            "star1": {
+                "mass": 1.5180717467993754,
+                "radius": 1.5492013178879485,
+                "temperature": 7300.39818085785,
+                "luminosity": 6.116341957633711,
+                "orbital_radius": 0.6587303940728418,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20116004340960383,
+                "radius": 1.2407540266902366,
+                "temperature": 4351.072791264547,
+                "luminosity": 0.4950472269556845,
+                "orbital_radius": 4.971166157305858,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20116004340960383,
+            "orbit_coefficient_1_2": 4.971166157305858
+        },
+        {
+            "star1": {
+                "mass": 1.5186694632610465,
+                "radius": 1.6079586128507346,
+                "temperature": 7300.498831637251,
+                "luminosity": 6.589458477729236,
+                "orbital_radius": 0.6584711316000882,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20123924695820417,
+                "radius": 1.2642050211910763,
+                "temperature": 4351.4042334748,
+                "luminosity": 0.5140940666572666,
+                "orbital_radius": 4.9692096105273755,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20123924695820417,
+            "orbit_coefficient_1_2": 4.9692096105273755
+        },
+        {
+            "star1": {
+                "mass": 1.5161923741496635,
+                "radius": 1.579633011128992,
+                "temperature": 7300.775355240281,
+                "luminosity": 6.360308683473103,
+                "orbital_radius": 0.6595469130761435,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20091100729876393,
+                "radius": 1.2563060224821374,
+                "temperature": 4351.486599406592,
+                "luminosity": 0.5077282580328304,
+                "orbital_radius": 4.9773280889132865,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20091100729876393,
+            "orbit_coefficient_1_2": 4.9773280889132865
+        },
+        {
+            "star1": {
+                "mass": 1.517541909713666,
+                "radius": 1.604933339097619,
+                "temperature": 7300.2573822528975,
+                "luminosity": 6.5638180812118305,
+                "orbital_radius": 0.6589603842892765,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20108983457304125,
+                "radius": 1.2658214630421643,
+                "temperature": 4351.832317094634,
+                "luminosity": 0.5156124226636507,
+                "orbital_radius": 4.972901798458505,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20108983457304125,
+            "orbit_coefficient_1_2": 4.972901798458505
+        },
+        {
+            "star1": {
+                "mass": 1.5194549471570258,
+                "radius": 1.6207469025202002,
+                "temperature": 7300.73895770885,
+                "luminosity": 6.6955696415405335,
+                "orbital_radius": 0.6581307342287763,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20134333161358745,
+                "radius": 1.289159080671937,
+                "temperature": 4351.730916175353,
+                "luminosity": 0.5347502644043292,
+                "orbital_radius": 4.9666407721869446,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20134333161358745,
+            "orbit_coefficient_1_2": 4.9666407721869446
+        },
+        {
+            "star1": {
+                "mass": 1.5220462852498597,
+                "radius": 1.5967490431573108,
+                "temperature": 7300.345863061427,
+                "luminosity": 6.497359881985307,
+                "orbital_radius": 0.6570102431778804,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20168671043237021,
+                "radius": 1.3062683239244703,
+                "temperature": 4351.908149762879,
+                "luminosity": 0.5491279178902961,
+                "orbital_radius": 4.958184889109592,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20168671043237021,
+            "orbit_coefficient_1_2": 4.958184889109592
+        },
+        {
+            "star1": {
+                "mass": 1.5223698179473777,
+                "radius": 1.61745598553851,
+                "temperature": 7299.965326356455,
+                "luminosity": 6.665580564958482,
+                "orbital_radius": 0.6568706159376617,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20172958182604073,
+                "radius": 1.3267604393529837,
+                "temperature": 4351.731145542308,
+                "luminosity": 0.5663998143628277,
+                "orbital_radius": 4.957131180008785,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20172958182604073,
+            "orbit_coefficient_1_2": 4.957131180008785
+        },
+        {
+            "star1": {
+                "mass": 1.5241163580913082,
+                "radius": 1.6285763794294947,
+                "temperature": 7299.725339592936,
+                "luminosity": 6.756661961616708,
+                "orbital_radius": 0.6561178841045487,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20196101627036817,
+                "radius": 1.3134799299861475,
+                "temperature": 4351.768605299947,
+                "luminosity": 0.5551366639984974,
+                "orbital_radius": 4.951450623823785,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20196101627036817,
+            "orbit_coefficient_1_2": 4.951450623823785
+        },
+        {
+            "star1": {
+                "mass": 1.5246503972315244,
+                "radius": 1.6022300104252067,
+                "temperature": 7299.98730209981,
+                "luminosity": 6.540756669327523,
+                "orbital_radius": 0.6558880657597375,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20203178192215954,
+                "radius": 1.3419299482768183,
+                "temperature": 4351.556293877424,
+                "luminosity": 0.5793325966117283,
+                "orbital_radius": 4.949716279715279,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20203178192215954,
+            "orbit_coefficient_1_2": 4.949716279715279
+        },
+        {
+            "star1": {
+                "mass": 1.5249289504959564,
+                "radius": 1.595847445686733,
+                "temperature": 7299.318600505906,
+                "luminosity": 6.486372356660698,
+                "orbital_radius": 0.6557682570553647,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20206869308059666,
+                "radius": 1.369372065938174,
+                "temperature": 4351.578133888096,
+                "luminosity": 0.6032813810405641,
+                "orbital_radius": 4.948812132917306,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20206869308059666,
+            "orbit_coefficient_1_2": 4.948812132917306
+        },
+        {
+            "star1": {
+                "mass": 1.5218671391811776,
+                "radius": 1.6149784137153762,
+                "temperature": 7299.456130711049,
+                "luminosity": 6.643322027339959,
+                "orbital_radius": 0.6570875829134717,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20166297174476946,
+                "radius": 1.3947255124337121,
+                "temperature": 4351.634648566553,
+                "luminosity": 0.6258597817768492,
+                "orbital_radius": 4.95876854014444,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20166297174476946,
+            "orbit_coefficient_1_2": 4.95876854014444
+        },
+        {
+            "star1": {
+                "mass": 1.5242060344390749,
+                "radius": 1.6193740198636626,
+                "temperature": 7299.307583049924,
+                "luminosity": 6.678990771706526,
+                "orbital_radius": 0.6560792815441195,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2019728993042548,
+                "radius": 1.3962653548070392,
+                "temperature": 4352.054499909625,
+                "luminosity": 0.6274846054573264,
+                "orbital_radius": 4.95115930624725,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2019728993042548,
+            "orbit_coefficient_1_2": 4.95115930624725
+        },
+        {
+            "star1": {
+                "mass": 1.5213315741940863,
+                "radius": 1.6026932569433912,
+                "temperature": 7299.511791621997,
+                "luminosity": 6.542834382826725,
+                "orbital_radius": 0.6573189020478604,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20159200390265064,
+                "radius": 1.4017949584594933,
+                "temperature": 4351.561033650825,
+                "luminosity": 0.6321776738558428,
+                "orbital_radius": 4.960514210091898,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20159200390265064,
+            "orbit_coefficient_1_2": 4.960514210091898
+        },
+        {
+            "star1": {
+                "mass": 1.5209460782028683,
+                "radius": 1.6247641795344796,
+                "temperature": 7299.284455140552,
+                "luminosity": 6.723442201652869,
+                "orbital_radius": 0.6574855047994783,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2015409217383912,
+                "radius": 1.4035692860169153,
+                "temperature": 4352.325442294989,
+                "luminosity": 0.6342244932027526,
+                "orbital_radius": 4.961771492233439,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2015409217383912,
+            "orbit_coefficient_1_2": 4.961771492233439
+        },
+        {
+            "star1": {
+                "mass": 1.5213344974045044,
+                "radius": 1.609725037797798,
+                "temperature": 7299.2188784626105,
+                "luminosity": 6.5993140420498,
+                "orbital_radius": 0.657317639024202,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20159239125794912,
+                "radius": 1.3957943111943965,
+                "temperature": 4352.378286539939,
+                "luminosity": 0.6272479315615181,
+                "orbital_radius": 4.9605046785741145,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20159239125794912,
+            "orbit_coefficient_1_2": 4.9605046785741145
+        },
+        {
+            "star1": {
+                "mass": 1.5225969361175415,
+                "radius": 1.6498019247890578,
+                "temperature": 7299.517626217679,
+                "luminosity": 6.933142208343399,
+                "orbital_radius": 0.6567726338330171,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20175967730806627,
+                "radius": 1.4206510405317938,
+                "temperature": 4352.543866213218,
+                "luminosity": 0.6498861842511032,
+                "orbital_radius": 4.9563917495422185,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20175967730806627,
+            "orbit_coefficient_1_2": 4.9563917495422185
+        },
+        {
+            "star1": {
+                "mass": 1.5254458543482396,
+                "radius": 1.6577565989372443,
+                "temperature": 7299.731562946865,
+                "luminosity": 7.000981662872008,
+                "orbital_radius": 0.6555460471766523,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20213718813136294,
+                "radius": 1.3951762459063366,
+                "temperature": 4352.315717659403,
+                "luminosity": 0.626656520953192,
+                "orbital_radius": 4.947135206759331,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20213718813136294,
+            "orbit_coefficient_1_2": 4.947135206759331
+        },
+        {
+            "star1": {
+                "mass": 1.5224255434412883,
+                "radius": 1.6133215106021261,
+                "temperature": 7299.480764447435,
+                "luminosity": 6.629786950241421,
+                "orbital_radius": 0.6568465724370346,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20173696602431576,
+                "radius": 1.4098166318101433,
+                "temperature": 4352.390169943842,
+                "luminosity": 0.6399210441130365,
+                "orbital_radius": 4.956949733642113,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20173696602431576,
+            "orbit_coefficient_1_2": 4.956949733642113
+        },
+        {
+            "star1": {
+                "mass": 1.524342620036473,
+                "radius": 1.6093025936564387,
+                "temperature": 7299.172555372622,
+                "luminosity": 6.595683312183781,
+                "orbital_radius": 0.6560204949042708,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20199099829381814,
+                "radius": 1.3903097637156752,
+                "temperature": 4352.90967781566,
+                "luminosity": 0.6226322592318236,
+                "orbital_radius": 4.95071566776154,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20199099829381814,
+            "orbit_coefficient_1_2": 4.95071566776154
+        },
+        {
+            "star1": {
+                "mass": 1.5227602920062941,
+                "radius": 1.6287231949852103,
+                "temperature": 7298.865090558367,
+                "luminosity": 6.754695223367697,
+                "orbital_radius": 0.6567021777816797,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2017813236352191,
+                "radius": 1.400686287566472,
+                "temperature": 4352.835630574435,
+                "luminosity": 0.6319179260886011,
+                "orbital_radius": 4.95586004682873,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2017813236352191,
+            "orbit_coefficient_1_2": 4.95586004682873
+        },
+        {
+            "star1": {
+                "mass": 1.5218673736309662,
+                "radius": 1.6404788456260817,
+                "temperature": 7298.936292016193,
+                "luminosity": 6.8528213596707825,
+                "orbital_radius": 0.6570874816864871,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.201663002811766,
+                "radius": 1.4390114778265528,
+                "temperature": 4353.240229952763,
+                "luminosity": 0.6672197634687176,
+                "orbital_radius": 4.958767776226206,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.201663002811766,
+            "orbit_coefficient_1_2": 4.958767776226206
+        },
+        {
+            "star1": {
+                "mass": 1.5229140613629708,
+                "radius": 1.6213723710817296,
+                "temperature": 7298.930944852205,
+                "luminosity": 6.694103233264255,
+                "orbital_radius": 0.6566358702506327,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2018016996487569,
+                "radius": 1.4134805618284232,
+                "temperature": 4353.332708895337,
+                "luminosity": 0.6438088918512814,
+                "orbital_radius": 4.955359651284087,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2018016996487569,
+            "orbit_coefficient_1_2": 4.955359651284087
+        },
+        {
+            "star1": {
+                "mass": 1.524791008835686,
+                "radius": 1.5984674139965631,
+                "temperature": 7298.696011005144,
+                "luminosity": 6.505467739508506,
+                "orbital_radius": 0.6558275817507536,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20205041439882387,
+                "radius": 1.4240208370260803,
+                "temperature": 4352.614592986068,
+                "luminosity": 0.6530153550654408,
+                "orbital_radius": 4.949259831885903,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20205041439882387,
+            "orbit_coefficient_1_2": 4.949259831885903
+        },
+        {
+            "star1": {
+                "mass": 1.5275805598981003,
+                "radius": 1.6351859412932572,
+                "temperature": 7298.346045230461,
+                "luminosity": 6.806470147377646,
+                "orbital_radius": 0.6546299594613239,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20242005846471975,
+                "radius": 1.4282960367737827,
+                "temperature": 4353.481751747891,
+                "luminosity": 0.6574658894872994,
+                "orbital_radius": 4.940221871214864,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20242005846471975,
+            "orbit_coefficient_1_2": 4.940221871214864
+        },
+        {
+            "star1": {
+                "mass": 1.5257180547216926,
+                "radius": 1.6189237876578213,
+                "temperature": 7298.154834807428,
+                "luminosity": 6.67106159524211,
+                "orbital_radius": 0.6554290924887892,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20217325746672563,
+                "radius": 1.4420462145290935,
+                "temperature": 4353.701549989322,
+                "luminosity": 0.6703210002554622,
+                "orbital_radius": 4.946252598044939,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20217325746672563,
+            "orbit_coefficient_1_2": 4.946252598044939
+        },
+        {
+            "star1": {
+                "mass": 1.526878235065082,
+                "radius": 1.6344188220544569,
+                "temperature": 7298.240502835463,
+                "luminosity": 6.799692030207838,
+                "orbital_radius": 0.6549310724554114,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.2023269932362841,
+                "radius": 1.4118675538276815,
+                "temperature": 4353.638407590536,
+                "luminosity": 0.6425207959550243,
+                "orbital_radius": 4.942494246589071,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.2023269932362841,
+            "orbit_coefficient_1_2": 4.942494246589071
+        },
+        {
+            "star1": {
+                "mass": 1.5277301710112128,
+                "radius": 1.6222170738502613,
+                "temperature": 7298.10094162293,
+                "luminosity": 6.698032486721225,
+                "orbital_radius": 0.6545658513362308,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20243988346842706,
+                "radius": 1.4128863819942739,
+                "temperature": 4353.753634297483,
+                "luminosity": 0.643516561572492,
+                "orbital_radius": 4.939738073678362,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20243988346842706,
+            "orbit_coefficient_1_2": 4.939738073678362
+        },
+        {
+            "star1": {
+                "mass": 1.5298415089564095,
+                "radius": 1.6174490796885128,
+                "temperature": 7298.351427410127,
+                "luminosity": 6.659631062712602,
+                "orbital_radius": 0.6536624834308201,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20271965735500624,
+                "radius": 1.4287327980397824,
+                "temperature": 4353.454851709062,
+                "luminosity": 0.6578517867272026,
+                "orbital_radius": 4.932920729284691,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20271965735500624,
+            "orbit_coefficient_1_2": 4.932920729284691
+        },
+        {
+            "star1": {
+                "mass": 1.5327476086809757,
+                "radius": 1.6458469297477025,
+                "temperature": 7298.306488524395,
+                "luminosity": 6.895362819785497,
+                "orbital_radius": 0.6524231349873459,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.203104745311474,
+                "radius": 1.4104871039653946,
+                "temperature": 4353.794031011037,
+                "luminosity": 0.6413566586156298,
+                "orbital_radius": 4.923567878566484,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.203104745311474,
+            "orbit_coefficient_1_2": 4.923567878566484
+        },
+        {
+            "star1": {
+                "mass": 1.5309926604871205,
+                "radius": 1.673103808603874,
+                "temperature": 7298.486001903719,
+                "luminosity": 7.1263433541264005,
+                "orbital_radius": 0.6531709953996951,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20287219671447793,
+                "radius": 1.4374735955387867,
+                "temperature": 4353.883515112299,
+                "luminosity": 0.6661880292445693,
+                "orbital_radius": 4.9292116721514025,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20287219671447793,
+            "orbit_coefficient_1_2": 4.9292116721514025
+        },
+        {
+            "star1": {
+                "mass": 1.528147959098318,
+                "radius": 1.6263778599663565,
+                "temperature": 7298.580580799292,
+                "luminosity": 6.734205826474575,
+                "orbital_radius": 0.6543868962728248,
+                "orbital_radius_error": null
+            },
+            "star2": {
+                "mass": 0.20249524466589042,
+                "radius": 1.418056873472856,
+                "temperature": 4353.841824705074,
+                "luminosity": 0.6482876327489471,
+                "orbital_radius": 4.938387573742596,
+                "orbital_radius_error": null
+            },
+            "star3": {
+                "mass": null,
+                "radius": 0.83,
+                "temperature": null,
+                "luminosity": 0.4,
+                "orbital_radius": null,
+                "orbital_radius_error": null
+            },
+            "period": 1.135946,
+            "distance": 1951571079.488285,
+            "mass_coefficient_1_2": 0.20249524466589042,
+            "orbit_coefficient_1_2": 4.938387573742596
+        }
+    ],
+    "scores": [
+        0.7510246279074382,
+        0.6615254091845602,
+        0.5061427119335283,
+        0.4647821514138009,
+        0.46620533182352647,
+        0.41549139048182393,
+        0.34486842736010165,
+        0.3436260360518401,
+        0.31735262555628385,
+        0.30413680098900514,
+        0.3003248440101308,
+        0.29857520587801756,
+        0.2970899544417948,
+        0.2852425817889778,
+        0.2777025102068461,
+        0.27796320515539685,
+        0.2723471774871213,
+        0.26645442224647886,
+        0.2641829828881361,
+        0.26296725748962263,
+        0.2627866443974231,
+        0.26301761883421304,
+        0.2626955899693045,
+        0.2627337426364362,
+        0.26246271739165017,
+        0.2630784103540177,
+        0.2625728999735095,
+        0.2624105500679261,
+        0.26238432062315525,
+        0.26240467724842204,
+        0.2622994319646852,
+        0.26231016541263485,
+        0.2632111537987126,
+        0.26274705930016357,
+        0.26235539154992427,
+        0.26220883981470633,
+        0.2623122696721004,
+        0.2633412553763263,
+        0.2653162823190714,
+        0.262252189333607
+    ]
+}
