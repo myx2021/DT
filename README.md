@@ -21,8 +21,8 @@ time
 ├── Readme.md                   // help
 ├── Calculation.py              // tool
 ├── RCMa_system.py              
-├── RV.txt                      // data
+├── RV.txt                      // radial velocity data
 ├── SimulatedAnnealing.py
-├── V.dat                       // data
+├── V.dat                       // photometric data
 ├── solutions.json (output)     // json file that will be generated in the program
 └── main.py                     // main program
