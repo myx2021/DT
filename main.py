@@ -140,15 +140,6 @@ def read_RV_data(filename):
     # print((np.max(fitting_rv1) + np.min(fitting_rv1)) / 2)
     # print((np.max(fitting_rv2) + np.min(fitting_rv2)) / 2)
 
-    # plt.figure(figsize=(30, 4))
-    # plt.ticklabel_format(axis="x", style="plain", scilimits=(0, 0))
-    # plt.xlabel("Highest Degree")
-    # plt.ylabel("Difference between RV1_max and RV2_max")
-    # plt.plot(np.linspace(3, 35, num=50), rv1_max_list, label=r"Median value of RV 1")
-    # plt.plot(np.linspace(3, 35, num=50), rv2_max_list, label=r"Median value of RV 2")
-    # plt.legend()
-    # plt.show()
-
     draw_RVs(phase1, phase2, rv1, rv2, fitting_phase1, fitting_phase2, fitting_rv1, fitting_rv2, 'Phase [-1, 2]', "Observed RVs (km/s)", 'Phase [0, 1]', "Fitted RVs (km/s)")
 
     # print("Velocity of Star 1: ", rv1_max)
